@@ -1,0 +1,32 @@
+/*初始化样式*/
+*{
+    margin: 0;
+    padding: 0;
+}
+ol,ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #cccccc;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+body{
+    background-color: rgb(25,26,32);
+}
+
+/*测试样例*/
+#header,#nav,#banner,#focus_on_Eurocup,#what_you_like,#drama,#movie,#variety,#new-action,#comic,#children,#documentary,#introduce_for_you,#footer{
+    width: 100%;
+}
+.container{
+    margin: 0 auto;
+    width: 1196px;
+    position: relative;
+    /*border-top: solid 1px red;*/
+}

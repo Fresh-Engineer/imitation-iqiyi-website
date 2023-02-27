@@ -1,0 +1,423 @@
+/*初始化样式*/
+*{
+	margin: 0;
+	padding: 0;
+}
+ol,ul{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+
+/*测试样式*/
+#header,#banner,#nav,#rank,#online,#excl,#net,#movie,#terr,#office,#footer{
+	width: 100%;
+/*	height: 50px;
+	border: 1px solid #fff;*/
+}
+.container{
+	width: 1200px;
+	margin: 0px auto;
+/*	border: 1px solid #fff;*/
+}
+
+
+/*设置头部*/
+#header{
+	height: 82px;
+	background-color: #191A20;
+	position: relative;
+	position: sticky;
+	top: 0;
+}
+.header-left1{
+	margin-right: 30px;
+}
+.header-left1 a{
+	color: #00CC4C;
+	font-size: 20px;
+	line-height: 82px;
+	margin-left: 10px; 
+}
+.header-left1 span{
+	color: #00CC4C;
+	font-size: 20px;
+	margin-left: 10px;
+}
+.header-left2 a{
+	color: #FFFFFF;
+	font-size: 15px;
+	line-height: 82px;
+	margin-right: 20px;
+}
+.header-right1{
+	margin-right: 10px;
+	margin-top: 18px;
+	width: 252px;
+	height: 40px;
+	border:1px solid #424348;
+	background-color: #424348;
+	text-align: center;
+	line-height: 40px;
+	box-sizing: border-box;
+	padding-left: 104px;
+	border-radius: 5px;
+
+}
+.header-right2{
+	margin-right: 10px;
+	box-sizing: border-box;
+	margin-top: 18px;
+}
+.header-right1 a,.header-right1 span{
+	color: #CACACB;
+	font-size: 14px;
+}
+.header-right1 a:hover{
+	color: #00CC4C;
+}
+.header-left2 a:hover{
+	color: #00CC4C;
+}
+
+/*设置轮播图样式*/
+#banner{
+	width: 100%;
+	height: 600px;
+	background-color: #14151A;
+}
+.swiper-container {
+    width: 1200px;
+    height: 600px;
+}
+.swiper-slide img{
+	width: 1200px;
+	height: 600px;
+}
+
+/*设置导航栏样式*/
+#nav{
+	height: 60px;
+	background-color: #F9F9F9;
+}
+.nav-left1,.nav-left2,.nav-right1{
+	width: 275px;
+	text-align: center;
+	border-top:1px solid #666;
+}
+.nav-left1 h4,.nav-left2 h4,.nav-right1 h4{
+	float: left;
+}
+.nav-left1 span,.nav-left2 span,.nav-right1 span{
+	margin-right: 195px;
+}
+.nav-left1 li a,.nav-left2 li a{
+	color: black;
+	width: 25.33%;
+	float: left;
+	text-align: center;
+	line-height: 18px;
+}
+.nav-right1{
+	margin-right: 40px;
+}
+.nav-right1 li a{
+	color: black;
+	width: 17.33%;
+	float: left;
+	text-align: center;
+	line-height: 18px;
+}
+.nav-right2{
+	width: 220px;
+	height: 59px;
+	border:1px solid #F9F9F9;
+	background-color: #5C9FFE;
+	border-radius: 35px;
+	text-align: center;
+}
+.nav-right2 a{
+		color: #FAF8FE;
+}
+.nav-left1 a:hover{
+	color: #00CC4C;
+}
+.nav-left2 a:hover{
+	color: #00CC4C;
+}
+.nav-right1 a:hover{
+	color: #00CC4C;
+}
+
+/*设置电影排行榜样式*/
+#rank{
+	height: 420px;
+}
+.rank-top{
+	width: 500px;
+	height: 30px;
+	border:1px solid white;
+	line-height: 35px;
+}
+.rank-top a{
+	color: #272822;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.rank-top a:hover{
+	color: #00CC4C;
+}
+.rank-bottom img{
+	width: 190px;
+	margin-right: 6px;
+}
+.rank-bottom img:hover{
+	transform: scale(1.2);
+	transition: .3s;
+}
+
+
+
+
+
+
+
+
+/*设置最新上线的样式*/
+#online{
+	height: 345px;
+}
+.online-top{
+	width: 500px;
+	height: 30px;
+	border:1px solid white;
+	line-height: 35px;
+}
+.online-top a{
+	color: #272822;
+	float: left;
+	margin-left: 10px;
+	margin-right: 8px;
+}
+.online-top a:hover{
+	color: #00CC4C;
+}
+.online-bottom img{
+	width: 190px;
+	margin-right: 6px;
+}
+.online-bottom img:hover{
+	transform: scale(1.2);
+	transition: .3s;
+}
+
+/*设置你的专属影院的样式*/
+#excl{
+	height: 345px;
+}
+.excl-top{
+	width: 500px;
+	height: 30px;
+	border:1px solid white;
+	line-height: 35px;
+}
+.excl-top a{
+	color: #272822;
+	float: left;
+	margin-left: 10px;
+	margin-right: 8px;
+}
+.excl-top a:hover{
+	color: #00CC4C;
+}
+.excl-bottom img{
+	width: 190px;
+	margin-right: 6px;
+}
+.excl-bottom img:hover{
+	transform: scale(1.2);
+	transition: .3s;
+}
+
+/*设置网络电影的样式*/
+#net{
+	height: 345px;
+}
+.net-top{
+	width: 500px;
+	height: 30px;
+	border:1px solid white;
+	line-height: 35px;
+}
+.net-top a{
+	color: #272822;
+	float: left;
+	margin-left: 10px;
+	margin-right: 8px;
+}
+.net-top a:hover{
+	color: #00CC4C;
+}
+.net-bottom img{
+	width: 190px;
+	margin-right: 6px;
+}
+.net-bottom img:hover{
+	transform: scale(1.2);
+	transition: .3s;
+}
+
+
+/*设置成龙主演的电影的样式*/
+#movie{
+	height: 345px;
+}
+.movie-top{
+	width: 500px;
+	height: 30px;
+	border:1px solid white;
+	line-height: 35px;
+}
+.movie-top a{
+	color: #272822;
+	float: left;
+	margin-left: 10px;
+	margin-right: 20px;
+}
+.movie-top a:hover{
+	color: #00CC4C;
+}
+.movie-bottom img{
+	width: 190px;
+	margin-right: 6px;
+}
+.movie-bottom img:hover{
+	transform: scale(1.2);
+	transition: .3s;
+}
+
+/*设置枪战电影排行榜*/
+#gun{
+	height: 345px;
+}
+.gun-top{
+	width: 500px;
+	height: 30px;
+	border:1px solid white;
+	line-height: 35px;
+}
+.gun-top a{
+	color: #272822;
+	float: left;
+	margin-left: 10px;
+	margin-right: 20px;
+}
+.gun-top a:hover{
+	color: #00CC4C;
+}
+.gun-bottom img{
+	width: 190px;
+	margin-right: 6px;
+}
+.gun-bottom img:hover{
+	transform: scale(1.2);
+	transition: .3s;	
+}
+
+/*设置豆瓣电影排行榜top250*/
+
+#office{
+	height: 345px;
+}
+.office-top{
+	width: 500px;
+	height: 30px;
+	border:1px solid white;
+	line-height: 35px;
+}
+.office-top a{
+	color: #272822;
+	float: left;
+	margin-left: 10px;
+	margin-right: 20px;
+}
+.office-top a:hover{
+	color: #00CC4C;
+}
+.office-bottom img{
+	width: 190px;
+	margin-right: 6px;
+}
+.office-bottom img:hover{
+	transform: scale(1.2);
+	transition: .3s;	
+}
+/*设置底部的样式*/
+#footer{
+	height: 150px;
+	background-color: #F8F8F8;
+}
+.footer-top1{
+	width: 1200px;
+	height: 30px;
+	border: 1px solid #F8F8F8;
+}
+.footer-top1 a{
+	color: black;
+	margin: 20px 10px;
+	font-size: 14px;
+	float: left;
+}
+.footer-top1 a:hover{
+	color: #00CC4C;
+}
+.footer-top2{
+	width: 1200px;
+	height: 60px;
+	border-bottom: 1px solid #E7E7E7;
+	padding-left: 370px;
+}
+.footer-top2 a{
+	color: black;
+	margin: 20px 10px;
+	float: left;
+	font-size: 14px;
+}
+.footer-top2 a:hover{
+	color: #00CC4C;
+}
+.footer-bottom{
+	margin-top: 15px;
+	width: 1200px;
+	height: 30px;
+	border: 1px solid #F8F8F8;
+	padding-left: 370px;
+}
+.footer-bottom a{
+	color: black;
+	float: left;
+	line-height: 30px;
+	font-size: 13px;
+}
+.footer-bottom a:hover{
+	color: #00CC4C;
+}
+.footer-bottom span{
+	color: black;
+	float: left;
+	line-height: 30px;
+	font-size: 12px;
+}
+
+
+
+

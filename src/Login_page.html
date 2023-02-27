@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<title>登录界面</title>
+	<script type="text/javascript" src="../js/jquery-3.6.0.js"></script>
+	<style>
+		body {
+			background: greenyellow;
+			height: 100vh;
+			padding: 0px;
+			margin: 0px;
+			
+		}
+		
+		.main {
+			display: flex;
+			height: 100%;
+			flex-direction: column;
+			background: #ffffff;
+			justify-content: start;
+			align-items: center;
+		}
+		
+		.nav {
+			background: rgb(32, 36, 39);
+			width: 100%;
+			height: 50px;
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: space-evenly;
+			
+			
+		}
+		
+		.body {
+			background: url("https://images.pexels.com/photos/2317711/pexels-photo-2317711.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+			width: 100%;
+			
+			background-size: 100% 100%;
+			flex-grow: 1;
+			display: flex;
+			align-items: center;
+			justify-content: flex-end;
+			
+			
+		}
+		
+		.fottert {
+			background: rgb(33, 33, 39);
+			width: 100%;
+			height: 50px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			
+			
+		}
+		
+		.login {
+			width: 500px;
+			height: 400px;
+			background: #ffffff;
+			display: flex;
+			flex-direction: column;
+			margin-right: 20%;
+			border-radius: 10px;
+		}
+		
+		.login div {
+			width: 100%;
+			
+		}
+		
+		.item1 {
+			background: rgb(255, 255, 255);
+			height: 40px;
+			color: aqua;
+			border-radius: 10px;
+			display: flex;
+			align-items: center;
+			justify-content: space-evenly;
+			
+		}
+		
+		.item2 {
+			background: rgb(255, 255, 255);
+			flex-grow: 1;
+			border-radius: 10px;
+			display: flex;
+			flex-direction: column;
+			width: 100%;
+			align-items: center;
+			justify-content: center;
+			
+		}
+		
+		.aiqiyi {
+			color: #44c63b;
+			font-size: 20px;
+			text-align: center;
+		}
+		
+		.input {
+			/*outline-style: none;*/
+			/*border: 1px solid #b4b2b2;*/
+			border-radius: 5px;
+			padding: 15px 15px;
+			width: 70%;
+			font-size: 15px;
+			margin: 10px 10px 10px 10px;
+			border-top: 0;
+			border-right: 0;
+			border-bottom: 1px solid #999;
+			border-left: 0;
+			
+			
+		}
+		
+		
+		button {
+			
+			padding-top: 14px;
+			padding-bottom: 14px;
+			width: 70%;
+			border-radius: 10px;
+			border: white 1px solid;
+			font-size: 20px;
+		}
+		
+		.span1 {
+			color: rgb(68, 198, 59);
+			font-size: 20px;
+			
+		}
+		
+		.span2 {
+			color: gray;
+			border-bottom-width: 5px;
+			font-size: 20px;
+			
+		}
+		
+		.checkdiv {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-size: 15px;
+		}
+		
+		.select {
+			padding: 10px 10px 10px 10px;
+			width: 100%;
+			border-radius: 10px;
+			border: white 2px solid;
+		}
+		
+		.aiqiyiin {
+			display: flex;
+			justify-content: space-around !important;
+			
+			align-items: center;
+			font-size: 14px;
+		}
+	
+	</style>
+</head>
+<body>
+<div class="main">
+	<div class="nav">
+		<span class="aiqiyi"><a href="../Home_page.html" style="text-decoration: none; color: #00be06;">爱奇艺</a></span>
+		<span class="aiqiyi"></span>
+		<span class="aiqiyi">
+            <input class="select" type="text" placeholder="顶楼4 —— 抢先版">
+        </span>
+		<span class="aiqiyi aiqiyiin">
+            <span>个人中心</span>
+
+
+        </span>
+	</div>
+	<div class="body">
+		<div class="login">
+			<div class="item1">
+				<span class="span1" href="">密码登录</span>
+				<span class="span2" href="">短信登录</span>
+			</div>
+			<br>
+			<hr width="100%">
+			
+			<div class="item2">
+				
+				
+				<input class="input" id="username" placeholder="请输入账号" autocomplete="off">
+				
+				
+				<input class="input" id="password" type="password" placeholder="请输入密码" autocomplete="no">
+				
+				<br>
+				
+				<br>
+				<button id="btn" type="button" value="登录">登录</button>
+				<br>
+				<div class="checkdiv"><input class="check" type="checkbox">同意《用户协议》和《隐私政策》</div>
+				<br>
+				<br>
+			</div>
+		</div>
+	</div>
+	
+	<div class="fottert">
+		<span style="color:rgb(93, 93, 98) ">Copyright © 2021 爱奇艺 All Rights Reserved</span>
+	</div>
+
+
+</div>
+<script type="text/javascript" src="../js/login.js"></script>
+</body>
+</html>

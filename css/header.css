@@ -1,0 +1,185 @@
+/*设置网页首部样式*/
+#header{
+    width: 100%;
+    margin: 0 auto;
+    height: 60px;
+    z-index: 100;
+    /*display: block;*/
+    position: relative;
+    background-color: rgb(25,26,32);
+}
+#header .container{
+    height: 60px;
+    margin: 0 auto;
+    z-index: 100;
+    background-color: rgb(25,26,32);
+}
+
+.header-left{
+    /*margin-left: 50px;*/
+    line-height: 60px;
+    padding-left: 10px;
+    height: 60px;
+}
+.header-left ul{
+    height: 60px;
+}
+.header-left a{
+    /*color: rgb(0,204,76);*/
+    line-height: 60px;
+    height: 60px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 20px;
+    color: #cccccc;
+}
+.header-left a:hover{
+    color: rgb(0,204,76);
+}
+.header-left img{
+    line-height: 60px;
+    vertical-align: middle;
+    width: 40px;
+}
+.header-left a p{
+    display: inline-block;
+    line-height: 30px;
+    vertical-align: middle;
+    height: 32px;
+    font-size: 20px;
+    color: rgb(0,204,76);
+}
+.header-right{
+    line-height: 60px;
+    position: absolute;
+    /*top: -60px;*/
+    left: 750px;
+    z-index: 100;
+    /*margin-right: 200px;*/
+}
+.header-right .parent{
+    position: relative;
+    left: -230px;
+    z-index: 100;
+}
+.header-right .search{
+    width: 200px;
+    height: 40px;
+    line-height: 60px;
+    vertical-align: middle;
+    border-radius: 5px;
+    padding: 0 40px 0 20px;
+    outline: none;
+    top: 15px;
+    color: white;
+    border: 1px solid #cccccc;
+    background-color: rgb(71,75,77);
+    /*padding-left: 20px;*/
+    position: absolute;
+    box-sizing: border-box;
+    z-index: 100;
+}
+.header-right .search::-webkit-input-placeholder{
+    /*color: white;*/
+}
+.header-right .btn{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    background: url("../image/image_large_search.svg") no-repeat 5px -10px;
+    background-size: 25px;
+    top: 15px;
+    left: 160px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    z-index: 100;
+}
+.header-right a{
+    margin-right: 15px;
+    height: 60px;
+    line-height: 60px;
+    vertical-align: middle;
+    color: #cccccc;
+}
+.header-right a:hover{
+    color: rgb(0,204,76);
+}
+.header-right div{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+    line-height: 60px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background: url("../image/icon02.png") no-repeat -173px -90px;
+    transform: scale(.6);
+}
+.header-right div:hover{
+    border-color: rgb(0,204,76);
+}
+.ui-menu-cont{
+    all: unset;
+    width: 950px;
+    height: 120px;
+    background: rgb(25,26,32);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: relative;
+    top: -5px;
+    left: 10px;
+    display: none;
+}
+#vip{
+    !important;
+    color:rgb(207,159,92);
+}
+#vip:hover{
+    !important;
+    color: #BB8B51;
+}
+.li1{
+    height: 120px;
+    line-height: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.nav-all{
+    display: flex;
+    width: 950px;
+    height: 120px;
+    position: relative;
+    /*top: -60px;*/
+}
+.ui-menu-cont li{
+    float: left;
+    display: inline-block;
+    width: 50px;
+    line-height: 60px;
+    height: 120px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.ui-menu-cont i{
+    width: 2px;
+    height: 120px;
+    float: left;
+    display: inline-block;
+    background-image: linear-gradient(180deg,hsla(0,0%,100%,0),#ffffff 48%,hsla(0,0%,100%,0));
+    opacity: .1;
+    font-style: normal;
+}
+.ui-menu-cont a{
+    all: initial;
+    font-size: 13px;
+    line-height: 30px;
+    color: white;
+    padding: 0;
+    margin: 0 5px;
+    height: 10px;
+    vertical-align: middle;
+    text-align: center;
+}

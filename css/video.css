@@ -1,0 +1,225 @@
+#video-page{
+    position: relative;
+    top: 55px;
+    width: 100%;
+    height: 800px;
+    margin: 0 auto;
+    background-color: rgb(25,26,32);
+}
+.selected{
+    !important;
+    color: #00be06;
+}
+.select-link{
+    color: white;
+}
+.select-link:hover{
+    color: #00be06;
+}
+#video-page .container{
+    width: 1196px;
+    height: 800px;
+    margin: 0 auto;
+    position: relative;
+    top: 60px;
+    background-color: rgb(25,26,32);
+}
+.video-player{
+    width: 830px;
+    height: 600px;
+    cursor: default;
+    box-sizing: border-box;
+    position: relative;
+    top: 0;
+}
+.player-sd{
+    width: 366px;
+    display: block;
+    margin-left: -366px;
+    position: relative;
+    background-color: #222328;
+    margin-top: -5px;
+    float: right;
+    height: 600px;
+    top: -600px;
+}
+.player-side{
+    box-sizing: border-box;
+    padding-left: 10px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.player-side-head{
+    padding: 8px 16px 0 0;
+}
+h2{
+    font-weight: 400;
+    font-size: 100%;
+    display: block;
+    color: white;
+}
+.player-side-head, .header-link{
+    display: block;
+    color: white;
+    line-height: 44px;
+    font-size: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    position: relative;
+    background-color: #222328;
+}
+.player-side-body{
+    height: 442px;
+    padding-bottom: 4px;
+    box-sizing: border-box;
+    display: block;
+}
+.player-side-content,.update-tip{
+    position: relative;
+    margin: -3px 0;
+    line-height: 19px;
+    color: white;
+    font-size: 13px;
+}
+.player-side-content{
+    margin-bottom: 12px;
+    display: block;
+}
+.player-side-options{
+    padding-top: 8px;
+    margin-bottom: 12px;
+    text-align: center;
+    line-height: 48px;
+}
+.player-side-options,.options-link{
+    display: block;
+    position: relative;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.options-img-wide{
+    display: none;
+    width: 396px;
+}
+.options-img-narrow{
+    width: 336px;
+}
+img{
+    border: none;
+    vertical-align: top;
+}
+.player-side-options,.options-txt{
+    position: absolute;
+    top: 90px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    font-size: 18px;
+    color: white;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 60px;
+}
+.options-txt{
+    position: absolute;
+    top: -2px;
+}
+.episode-tab{
+    position: relative;
+    margin-top: 55px;
+    margin-bottom: -10px;
+    border-radius: 4px;
+    background-color: #1f2128;
+}
+.tab-bar{
+    width: 180px;
+    height: 30px;
+}
+.episode-tab,.tab-bar{
+    margin-left: 10px;
+    margin-right: 6px;
+}
+.bar-li.selected, .bar-li:hover{
+    background-color: #00cc4c;
+}
+.episode-tab,.bar-li{
+    float: left;
+    position: relative;
+    height: 32px;
+    font-size: 14px;
+    text-align: center;
+    width: 50px;
+}
+.bar-li{
+    padding: 0 10px;
+    height: 25px;
+}
+.episode-num{
+    margin-top: 20px;
+    margin-bottom: 14px;
+    position: relative;
+    left: -60px;
+    top: 90px;
+    overflow: hidden;
+}
+.episode-num,.select-link{
+    display: block;
+    color: inherit;
+}
+.episode-num .select-item{
+    position: relative;
+    float: left;
+    width: 56px;
+    height: 44px;
+    line-height: 44px;
+    border-radius: 4px;
+    color: #cccccc;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: .2s;
+}
+.player-info-area{
+    background-color: #191a20;
+    width: 1196px;
+    height: 96px;
+    top: 500px;
+    position: absolute;
+}
+.detail-mn{
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+.player-detail-con,.detail-mnc{
+    margin-right: 386px;
+}
+.player-title{
+    margin-bottom: 9px;
+}
+.player-title .player_title{
+    float: left;
+    max-width: 100%;
+    height: 36px;
+    line-height: 36px;
+    color: white;
+    font-size: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.player-title .title-link{
+    color: white;
+    transition: all .2s;
+}
+.player-intro{
+    margin-bottom: 13px;
+}
+em{
+    font-style: normal;
+}

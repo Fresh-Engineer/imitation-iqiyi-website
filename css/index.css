@@ -1,0 +1,902 @@
+
+
+/*设置轮播图样式*/
+#banner{
+    height: 760px;
+    background-color: rgb(25,26,32);
+    position: relative;
+    z-index: 80;
+}
+#banner .container{
+    height: 760px;
+    z-index: 80;
+}
+#banner-list {
+    position: relative;
+    /*left: 590px;*/
+    /*top: -30px;*/
+    float: right;
+    list-style-type: none;
+    /*margin: 0 10px 0 0;*/
+    z-index: 80;
+    /*padding: 30px 0 0;*/
+}
+
+#banner-list li{
+    width: 150px;
+    height: 60px;
+    padding-right: 50px;
+    line-height: 60px;
+    vertical-align: middle;
+    text-align: right;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+}
+#banner-list img{
+    vertical-align: middle;
+    margin-right: 20px;
+}
+#banner-list .now{
+    background-color: rgb(0,204,76);
+}
+#pic {
+    list-style-type: none;
+    height: 600px;
+    width: 996px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    /*left: 180px;*/
+    z-index: 120;
+    /*display: none;*/
+    overflow: hidden;
+}
+#banner-list a{
+    color: white;
+}
+#banner-list li:hover{
+    color: white;
+}
+#pic img{
+    height: 600px;
+    width: 996px;
+}
+
+.banner-bottom{
+    height: 105px;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+    /*top: 550px;*/
+    /*left: 180px;*/
+}
+.banner-bottom div{
+    width: 186px;
+    height: 104px;
+    /*line-height: 180px;*/
+    color: white;
+    position: relative;
+    vertical-align: top;
+    font-size: 12px;
+    background-size: 480px 270px;
+    transition-property: transform;
+    transition-duration: .3s;
+    z-index: 120;
+}
+.banner-bottom p{
+    position: absolute;
+    margin-left: 5px;
+    z-index: 120;
+    top: 80px;
+}
+.banner-bottom img{
+    width: 186px;
+    height: 104px;
+}
+.banner-bottom div:hover{
+    transform: translateY(-15px);
+}
+.banner-bottom .div2{
+    margin-left: 16px;
+}
+.banner-bottom .div3{
+    margin-left: 16px;
+}
+.banner-bottom .div4{
+    margin-left: 16px;
+}
+.banner-bottom .div5{
+    margin-left: 16px;
+}
+.banner-bottom .div6{
+    margin-left: 16px;
+}
+.banner-bottom .div7{
+    margin-left: 16px;
+}
+
+/*设置聚焦欧洲杯样式*/
+#focus_on_Eurocup{
+    width: 1196px;
+    height: 150px;
+    margin: 0 auto;
+    padding: 10px 0 0 0;
+    z-index: 5;
+    clear: both;
+    display: block;
+}
+#focus_on_Eurocup .container{
+    width: 1196px;
+    height: 175px;
+    margin: 0 auto;
+    z-index: 5;
+}
+.focus-head{
+    width: 1196px;
+    margin-bottom: 20px;
+    display: inline-block;
+    z-index: 5;
+}
+.focus-head .focus-left{
+    display: inline-block;
+    height: 40px;
+}
+.focus-left h3{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 30px;
+}
+.focus-left a{
+    height: 40px;
+    line-height: 40px;
+}
+.focus-left a:hover{
+    color: rgb(0,204,76);
+}
+.focus-left span{
+    font-size: 15px;
+    margin: 0 10px;
+    display: inline-block;
+    color: #cccccc;
+}
+.focus-right{
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+}
+.focus-right a{
+    background: dimgrey;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+#competition{
+    overflow: hidden;
+    display: block;
+    position: relative;
+}
+#competition #com{
+    margin-left: 0;
+    width: 186px;
+    height: 104px;
+    transition: all .5s;
+    white-space: nowrap;
+    transition-property: transform;
+    position: relative;
+}
+#com:active{
+    transform: translateX(100);
+}
+
+#competition ul li{
+    vertical-align: top;
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+    width: 186px;
+    height: 104px;
+    border-radius: 3%;
+    border-top: 2px solid #00be06;
+    background: rgb(57,58,63);
+    position: relative;
+    z-index: -2;
+}
+.competition-name .icon img{
+    position: absolute;
+    width: 34px;
+    height: 19px;
+    left: 150px;
+}
+.competition-country{
+    display: inline-block;
+}
+.competition-country p{
+    display: inline-block;
+    color: white;
+}
+.competition-link a{
+    color: #00be06;
+}
+.competition-link .icon{
+    background:  url("../image/icon2.png") no-repeat -560px -271px;
+    width: 30px;
+    height: 30px;
+    transform: scale(.8);
+    /*position: relative;*/
+    /*top: 10px;*/
+    margin: 0 20px;
+    vertical-align: middle;
+}
+
+.country-flag{
+    /*display: inline-block;*/
+}
+.country-flag div{
+    display: inline-block;
+}
+.country-flag a{
+    vertical-align: middle;
+}
+.country-flag img{
+    width: 20px;
+    height: 20px;
+}
+
+/*设置猜你喜欢栏目的样式*/
+#what_you_like{
+    height: 205px;
+    margin: 30px auto;
+}
+#what_you_like .container{
+    height: 205px;
+    margin: 0 auto;
+}
+.like_head{
+    height: 60px;
+    line-height: 60px;
+    display: block;
+}
+.like_head h3{
+    font-size: 26px;
+}
+.like_head a:hover{
+    color: rgb(0,204,76);
+}
+.like_main{
+    height: 150px;
+    display: inline-block;
+    position: relative;
+}
+.like_main .login_box p{
+    color: #00be06;
+    height: 25px;
+    margin-top: 5px;
+    text-align: center;
+    line-height: 25px;
+}
+.like_main .login_box a{
+    width: 80px;
+    height: 30px;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 30px;
+    vertical-align: text-bottom;
+    display: block;
+    color: #fff;
+    background-color: #00be06;
+    position: absolute;
+    border-radius: 7%;
+    left: 50px;
+}
+.like_main ul{
+    height: 160px;
+    display: inline-block;
+    float: left;
+}
+.like_main ul li{
+    width: 180px;
+    height: 160px;
+    display: inline-block;
+    margin: 0 9px;
+    float: left;
+    position: relative;
+}
+.like_main ul li div{
+    height: 104px;
+    width: 180px;
+    display: inline-block;
+}
+.like_main ul li div a{
+    height: 104px;
+    width: 180px;
+    line-height: 14px;
+}
+#login:hover{
+    color: white;
+}
+.like_main ul li div a:hover{
+    color: #00be06;
+}
+.like_main ul li div p{
+    color: #696969;
+    font-size: 12px;
+}
+.like_main .like{
+    width: 180px;
+    height: 104px;
+    position: relative;
+    z-index: 5;
+}
+.like_main .icon{
+    position: absolute;
+    top: 5px;
+    left: 145px;
+    z-index: 8;
+}
+.like_main .new1{
+    width: 78px;
+    height: 104px;
+    position: relative;
+    /*top: -35px;*/
+    z-index: 8;
+}
+.like_main .new2{
+    position: absolute;
+    width: 78px;
+    height: 104px;
+    z-index: 6;
+    left: 35px;
+}
+.like_main .new3{
+    position: absolute;
+    width: 78px;
+    height: 104px;
+    z-index: 4;
+    left: 70px;
+}
+.like_main .new4{
+    position: absolute;
+    width: 78px;
+    height: 104px;
+    z-index: 2;
+    left: 100px;
+}
+
+
+/*设置电视剧栏目样式*/
+#drama{
+    width: 100%;
+    height: 720px;
+    margin: 0 auto;
+}
+#drama .container{
+    width: 1196px;
+    height: 720px;
+    margin: 0 auto;
+}
+#drama a{
+    color: white;
+}
+#drama a:hover{
+    color: #00be06;
+}
+.drama-top{
+    height: 60px;
+    width: 1196px;
+    display: inline-block;
+}
+.drama-top h3{
+    font-size: 26px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.drama-top a{
+    font-size: 14px;
+    color: #cccccc;
+}
+.drama-top span{
+    margin: 0 10px;
+    color: #696969;
+}
+
+.drama-main{
+    width: 994px;
+    display: block;
+    background-color: rgb(25,26,32);
+}
+
+.drama-main .drama1{
+    float: left;
+    display: inline-block;
+    position: relative;
+    z-index: 10;
+}
+.drama-main .drama1 li{
+    float: left;
+    display: inline-block;
+    position: relative;
+    margin: 0 0 20px 16px;
+    z-index: 11;
+}
+.drama1 .picture{
+    width: 186px;
+    height: 248px;
+    z-index: 2;
+    position: relative;
+}
+.drama1 .icon{
+    z-index: 4;
+    position: absolute;
+    left: 150px;
+    top: 5px;
+}
+.drama1 li div p{
+    color: #cccccc;
+    z-index: 3;
+    font-size: 13px;
+    position: absolute;
+    top: 225px;
+    left: 110px;
+}
+.drama1 li p{
+    color: #696969;
+    font-size: 14px;
+}
+
+.drama-right{
+    width: 202px;
+    height: 660px;
+    display: inline-block;
+    position: relative;
+    top: -41px;
+    z-index: 10;
+}
+.drama-right ul{
+    float: right;
+    display: inline-block;
+}
+.drama-right ul li{
+    display: inline-block;
+}
+
+.drama-right ul li a{
+    color: white;
+    font-size: 14px;
+    margin-right: 14px;
+}
+.list1{
+    position: relative;
+    top: 20px;
+    z-index: 20;
+    background-color: rgb(25,26,32);
+}
+.list1 li{
+    height: 59px;
+    width: 202px;
+    position: relative;
+}
+
+.list1 li:hover{
+    background-color: #00be06;
+}
+.list1 li a div{
+    color: white;
+}
+.list1 li a div span{
+    position: relative;
+    /*top: 15px;*/
+    font-size: 12px;
+    color: dimgrey;
+    font-weight: bold;
+}
+.list1 li a div div div{
+    position: relative;
+    /*top: 20px;*/
+    font-size: 14px;
+}
+.list1 li a div div div span{
+    position: relative;
+    top: 10px;
+}
+.list2{
+    z-index: -20;
+    position: relative;
+    top: -570px;
+    /*z-index: 20;*/
+    background-color: rgb(25,26,32);
+}
+.list2 li{
+    height: 59px;
+    width: 202px;
+    position: relative;
+}
+
+.list2 li:hover{
+    background-color: #00be06;
+}
+.list2 li a div{
+    color: white;
+}
+.list2 li a div span{
+    position: relative;
+    /*top: 15px;*/
+    font-size: 12px;
+    color: dimgrey;
+    font-weight: bold;
+}
+.list2 li a div div div{
+    position: relative;
+    /*top: 20px;*/
+    font-size: 14px;
+}
+.list2 li a div div div span{
+    position: relative;
+    top: 10px;
+}
+.item1{
+    color: #ff473a;
+    background-image: -webkit-linear-gradient(#ff5d52,#ff3e30);
+    position: relative;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    float: left;
+    left: 20px;
+    /*top: 20px;*/
+    display: inline-block;
+    line-height: 60px;
+    font: 600 40px Impact;
+    transform: skew(-10deg);
+}
+.item2{
+    color: #f73;
+    background-image: -webkit-linear-gradient(#ff7e3d,#ff6619);
+    position: relative;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    float: left;
+    display: inline-block;
+    left: 20px;
+    /*top: 20px;*/
+    line-height: 70px;
+    font: 600 40px Impact;
+    transform: skew(-10deg);
+}
+.item3{
+    color: #ffa82e;
+    background-image: -webkit-linear-gradient(#ffa424,#ff9500);
+    position: relative;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    float: left;
+    display: inline-block;
+    left: 20px;
+    /*top: 20px;*/
+    line-height: 70px;
+    font: 600 40px Impact;
+    transform: skew(-10deg);
+}
+.item{
+    color: hsla(0,0%,100%,.12);
+    background-image: -webkit-linear-gradient(#696969,#666666);
+    position: relative;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    float: left;
+    display: inline-block;
+    left: 20px;
+    /*top: 20px;*/
+    line-height: 70px;
+    font: 600 40px Impact;
+    transform: skew(-10deg);
+}
+.content{
+    display: inline-block;
+    position: absolute;
+    left: 70px;
+}
+.content div{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/*设置电影栏目的样式*/
+#movie{
+    width: 100%;
+    height: 720px;
+    margin: 0 auto;
+}
+#movie a{
+    color: white;
+}
+#movie a:hover{
+    color: #00be06;
+}
+#movie .container{
+    width: 1196px;
+    height: 720px;
+    margin: 0 auto;
+}
+.movie-top{
+    height: 60px;
+    width: 1196px;
+    display: inline-block;
+}
+.movie-top h3{
+    font-size: 26px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.movie-top a{
+    font-size: 14px;
+    color: #cccccc;
+}
+.movie-top span{
+    margin: 0 10px;
+    color: #696969;
+}
+
+.movie-main{
+    width: 994px;
+    display: block;
+    background-color: rgb(25,26,32);
+}
+
+.movie-main .movie1{
+    float: left;
+    display: inline-block;
+    position: relative;
+    z-index: 10;
+}
+.movie-main .movie1 li{
+    float: left;
+    display: inline-block;
+    position: relative;
+    margin: 0 0 20px 16px;
+    z-index: 11;
+}
+.movie1 .picture{
+    width: 186px;
+    height: 248px;
+    z-index: 2;
+    position: relative;
+}
+.movie1 .icon{
+    z-index: 4;
+    position: absolute;
+    left: 150px;
+    top: 5px;
+}
+.movie1 li div p{
+    color: #cccccc;
+    z-index: 3;
+    font-size: 13px;
+    position: absolute;
+    top: 225px;
+    left: 110px;
+}
+.movie1 li p{
+    color: #696969;
+    font-size: 14px;
+}
+
+.movie-right{
+    width: 202px;
+    height: 660px;
+    display: inline-block;
+    position: relative;
+    top: -41px;
+}
+.movie-right ul{
+    float: right;
+    display: inline-block;
+}
+.movie-right ul li{
+    display: inline-block;
+}
+
+.movie-right ul li a{
+    color: white;
+    font-size: 14px;
+    margin-right: 14px;
+}
+.
+
+/*设置新片速递栏目*/
+#new-action{
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+}
+#new-action .container{
+    width: 1196px;
+    height: 600px;
+    margin: 0 auto;
+}
+.action-head{
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.action-head h3{
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    font-size: 26px;
+    margin-right: 10px;
+    display: inline-block;
+}
+.action-head a{
+    line-height: 30px;
+    vertical-align: middle;
+    font-size: 14px;
+    display: inline-block;
+}
+.action-head a:hover{
+    color: #00be06;
+}
+.action-main{
+    margin: 0;
+    padding: 0;
+    display: block;
+    overflow: hidden;
+}
+.hidden-box{
+    padding-top: 24px;
+    overflow: hidden;
+    margin: 0;
+    display: block;
+    position: relative;
+}
+.line-top{
+    background-color: hsla(0,0%,100%,.06);
+    height: 1px;
+    margin-bottom: 20px;
+}
+.hidden-box ul{
+    margin-left: 0;
+    white-space: nowrap;
+    transition: all .5s;
+}
+.hidden-box ul li{
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    margin-right: 11.3px;
+    text-align: -webkit-match-parent;
+}
+.time-wrapper{
+    width: 100%;
+    top: -48px;
+    position: absolute;
+}
+.time-label{
+    color: hsla(0,0%,100%,.4);
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.time-circle{
+    background-color: #303137;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 24px;
+    margin-left: -4px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    font-style: normal;
+}
+.img-list{
+    width: 186px;
+}
+.link-wrap{
+    z-index: 1;
+    position: relative;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.link-wrap .link{
+    width: 186px;
+    height: 248px;
+    z-index: 1;
+    position: relative;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.link-wrap a{
+    width: 186px;
+    height: 248px;
+    z-index: 1;
+    position: relative;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.title-wrap{
+    position: relative;
+    padding-top: 5px;
+}
+.title-wrap p{
+    line-height: 26px;
+    height: 26px;
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.title-wrap a{
+    color: white;
+    font-size: 16px;
+}
+.title-wrap a:hover{
+    color: #00be06;
+}
+.link-txt{
+    color: #cccccc;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: color .1s ease-in-out;
+}
+.yuyue-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.yuyue-wrap p{
+    color: #cccccc;
+    font-size: 14px;
+}
+.yuyue-wrap a{
+    background-color: #00be06;
+    width: 50px;
+    vertical-align: text-bottom;
+    text-align: center;
+    height: 25px;
+    border-radius: 5%;
+    color: white;
+}
+.link .picture{
+    width: 186px;
+    height: 248px;
+    position: relative;
+    border-radius: 3px;
+    z-index: 1;
+}
+.link .icon{
+    position: relative;
+    z-index: 20;
+    /*left: 500px;*/
+    top: -220px;
+    left: -39px;
+}
+.zuo{
+    background-position: -217px -440px;
+    top: -210px;
+    width: 17px;
+    height: 43px;
+}
+.you{
+    background-position: -244px -440px;
+    width: 17px;
+    height: 43px;
+    top: -210px;
+    left: 1158px;
+}
+.trigger{
+    width: 17px;
+    height: 43px;
+    background-image: url("../image/big_bg_img_v3.png");
+    position: relative;
+    display: inline-block;
+    /*top: 74px;*/
+    z-index: 5;
+}
+

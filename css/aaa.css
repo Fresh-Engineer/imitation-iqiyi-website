@@ -1,0 +1,321 @@
+/*初始化样式*/
+*{
+	margin: 0;
+	padding: 0;
+}
+ol,ul{
+	list-style-type: none;
+	height: 1000px;
+}
+a{
+	text-decoration: none;
+	color: #a29fc2;
+	float: left;
+	
+}
+h2{
+	width: 122px;
+	height: 40px;
+}
+button{
+	float: right;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+
+#header,#headder#nav,#serve,#footer{
+	width: 100%;
+	height: 50px;
+	/*border: 1px solid #000;*/
+}
+.container{
+	width: 1200px;
+	margin: 0px auto;
+	/*border: 1px solid #f00;*/
+}
+
+/*设置头部*/
+#header{
+	height: 82px;
+	background-color: #160f66;
+	position: relative;
+}
+.header-left1{
+	margin-right: 30px;
+}
+.header-left1 a{
+	color: #00CC4C;
+	font-size: 20px;
+	line-height: 82px;
+	margin-left: 10px; 
+}
+.header-left1 span{
+	color: #00CC4C;
+	font-size: 20px;
+	margin-left: 10px;
+}
+.header-left2 a{
+	color: #FFFFFF;
+	font-size: 15px;
+	line-height: 82px;
+	margin-right: 20px;
+}
+.header-right1{
+	margin-right: 10px;
+	margin-top: 18px;
+	width: 252px;
+	height: 40px;
+	border:1px solid #424348;
+	background-color: #424348;
+	text-align: center;
+	line-height: 40px;
+	box-sizing: border-box;
+	padding-left: 104px;
+	border-radius: 5px;
+
+}
+.header-right2{
+	margin-right: 10px;
+	box-sizing: border-box;
+	margin-top: 18px;
+}
+.header-right1 a,.header-right1 span{
+	color: #CACACB;
+	font-size: 14px;
+}
+.header-right1 a:hover{
+	color: #00CC4C;
+}
+.header-left2 a:hover{
+	color: #00CC4C;
+}
+
+/*头部*/
+#headder{
+	height: 120px;
+	background-position: center;
+	background-image: url("../image/aiqiyi.png");
+	background-repeat: no-repeat;
+}
+.so {
+	width: 260px;
+	height: 50px;
+	float: right;
+	margin: 71px 34px;
+	
+}
+
+
+/*总榜*/
+#nav{
+	height: 100px;
+    
+}
+.nav-left{
+    text-align: center;
+    width: 1000px;
+   margin: 0px auto;
+}
+
+.rank{
+	height: 60px;
+	width: 700px;
+	 margin: 20px auto;
+	 border: none;
+}
+.index{
+	height: 200px;
+	width: 50px;
+	float: right;
+	margin: -88px 50px ;
+}
+
+/*电视剧*/
+#serve{
+	height: 1500px;
+}
+.serve-left1{
+	width: 200px;
+	height: 100px;
+	margin: 30px 0px 0px 260px;
+}
+.serve-left2{
+	width: 200px;
+	height: 100px;
+	margin: 30px 0px 0px 260px;
+}
+.serve-left3{
+	width: 200px;
+	height: 100px;
+	margin: 30px 0px 0px 260px;
+}
+.serve-left4{
+	width: 200px;
+	height: 100px;
+	margin: 30px 0px 0px 260px;
+}
+
+.serve-left5{
+	width: 200px;
+	height: 100px;
+	margin: 30px 0px 0px 260px;
+}
+.serve-left6{
+	width: 200px;
+	height: 100px;
+	margin: 30px 0px 0px 260px;
+}
+
+.serve-left7{
+	width: 200px;
+	height: 100px;
+	margin: 30px 0px 0px 260px;
+}
+
+.serve-left8{
+	width: 200px;
+	height: 100px;
+	margin: 30px 0px 0px 260px;
+}
+.serve-left9{
+	width: 200px;
+	height: 100px;
+	margin: 30px 0px 0px 260px;
+}
+.serve-left10{
+	width: 200px;
+	height: 100px;
+	margin: 30px 0px 0px 260px;
+}
+.serve-left11{
+	width: 200px;
+	height: 100px;
+	margin: 30px 0px 0px 260px;
+}
+
+#serve a{
+	width: 200px;
+	height: 100px;
+	/*float: left;*/
+	
+}
+#serve .button1{
+	margin: 27px -550px 0px 0px;
+	width: 80px;
+	height: 40px;
+	background-color: #16e094;
+	color: #fff;
+	border-radius: 10%;
+}
+#serve .button2{
+	margin: 0px -550px 0px 0px;
+	width: 80px;
+	height: 40px;
+	background-color: #16e094;
+	color: #fff;
+	border-radius: 10%;
+}
+#serve .button3{
+	margin: 0px -550px 0px 0px;
+	width: 80px;
+	height: 40px;
+	background-color: #16e094;
+	color: #fff;
+	border-radius: 10%;
+}
+#serve .button4{
+	margin: 0px -550px 0px 0px;
+	width: 80px;
+	height: 40px;
+	background-color: #16e094;
+	color: #fff;
+	border-radius: 10%;
+}
+#serve .button5{
+	margin: 0px -550px 0px 0px;
+	width: 80px;
+	height: 40px;
+	background-color: #16e094;
+	color: #fff;
+	border-radius: 10%;
+}
+#serve .button6{
+	margin: 0px -550px 0px 0px;
+	width: 80px;
+	height: 40px;
+	background-color: #16e094;
+	color: #fff;
+	border-radius: 10%;
+}
+#serve .button7{
+	margin: 0px -550px 0px 0px;
+	width: 80px;
+	height: 40px;
+	background-color: #16e094;
+	color: #fff;
+	border-radius: 10%;
+}
+#serve .button8{
+	margin: 0px -550px 0px 0px;
+	width: 80px;
+	height: 40px;
+	background-color: #16e094;
+	color: #fff;
+	border-radius: 10%;
+}
+#serve .button9{
+	margin: 0px -550px 0px 0px;
+	width: 80px;
+	height: 40px;
+	background-color: #16e094;
+	color: #fff;
+	border-radius: 10%;
+}
+#serve .button10{
+	margin: 0px -550px 0px 0px;
+	width: 80px;
+	height: 40px;
+	background-color: #16e094;
+	color: #fff;
+	border-radius: 10%;
+}
+#serve .button11{
+	margin: 0px -550px 0px 0px;
+	width: 80px;
+	height: 40px;
+	background-color: #16e094;
+	color: #fff;
+	border-radius: 10%;
+}
+
+
+
+/*尾部*/
+#footer{
+	height: 100px;
+}
+.footer-left{
+	width: 1000px;
+	height: 96px;
+	font-size: 14px;
+	float: left;
+	margin: -66px 0px 0px 200px;
+}
+#footer a{
+	padding: 10px 28px 0px 0px;
+}
+#footer p{
+	width: 1500px;
+	height: 2px;
+	background-color: grey;
+	margin: 92px -2px;
+}
+.footer-center{
+	text-align: center;
+	margin: -50px 0px 0px 0px;
+	color: #ababab;
+}

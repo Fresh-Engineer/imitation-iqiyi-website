@@ -1,0 +1,104 @@
+
+/*设置底边栏样式*/
+#footer{
+    background: url("../image/footer-logo-dark.png") no-repeat 397px -310px;
+    height: 350px;
+    width: 1196px;
+    margin: 0 auto;
+    padding: 24px 0;
+    z-index: -10;
+}
+#footer .container{
+    height: 222px;
+    width: 1196px;
+    margin: 0 auto;
+}
+#footer a{
+    color: rgb(144,144,147);
+}
+#footer a:hover{
+    color: rgb(0,204,76);
+}
+#serve{
+    height: 109px;
+    margin: 0 0 25px;
+    padding: 0 0 10px 35px;
+    display: flex;
+    border-bottom: 1px solid hsla(0,0%,100%,.05);
+}
+#serve .serving1,#serve .serving2,#serve .serving3{
+    width: 380px;
+    height: 108px;
+}
+#serve .serving1{
+    width: 401px;
+}
+#serve .serving3{
+    width: 387px;
+}
+#serve p{
+    width: 400px;
+    height: 20px;
+    color: white;
+    margin: 0 0 20px;
+    font-size: 18px;
+}
+#serve ul{
+    width: 449px;
+    height: 70px;
+    margin: 0 -10px 0 0;
+    display: inline-block;
+}
+#serve ul li{
+    height: 40px;
+    margin: 0 30px 0 0;
+    display: block;
+}
+#serve ul li a{
+    font-size: 16px;
+    height: 18px;
+    margin: 0 0 16px;
+    display: block;
+}
+#footer .footer-law{
+    width: 994px;
+    margin: 0 auto;
+    text-align: center;
+}
+#footer .footer-law ul{
+    width: 994px;
+    display: block;
+}
+#footer .footer-law ul li{
+    display: inline-block;
+    text-align: -webkit-match-parent;
+    margin: 0 7px;
+}
+#footer .footer-law ul li a{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    color: #cccccc;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+#footer .footer-law ul li span{
+    cursor: none;
+    color: #cccccc;
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 10px;
+    vertical-align: top;
+}
+#footer .footer-law ul li img{
+    vertical-align: middle;
+}
+#footer .copyright,#footer .copyright a,#footer .copyright span{
+    line-height: 16px;
+    color: #cccccc;
+    font-size: 14px;
+    text-align: center;
+}
+#footer .copyright a:hover{
+    color: rgb(0,204,76);
+}

@@ -1,0 +1,129 @@
+body{
+    background-color:black;
+    z-index:0;
+    height:30px;
+    width:1500px;
+}
+
+p{
+    color: blue;
+    font-size:20px;
+
+}
+
+a{
+    color: white;
+
+    }
+.server-top a{
+    top: -11px;
+
+}
+.aiqiyi input {
+            border-radius: 5px;
+            padding: 15px 15px;
+            width: 300px;
+            height: 30px;
+            font-size: 15px;
+            margin: 10px 10px 10px 10px;
+            border-top: 100px;
+            border-right: 0;
+            border-bottom: 1px solid #999;
+            border-left:0 ;
+
+
+        }
+
+.wenzi p{
+    color: green;
+
+}
+/*.ziduan p{
+    color: black;
+}*/
+.xiaozi a{
+    color: black;
+    font-size: 1;
+}
+.ziduan p1{
+   font-size: 21px;
+   font-weight: bold;
+
+}
+.ziduan p2{
+   font-size: 2px;
+   width: 10px;
+   height: 6px;
+   color: black;
+   font-weight: normal;
+
+}
+.ziduan p3{
+   font-size: 14px;
+
+}
+.ziduan p4{
+   font-size: 14px;
+
+}
+.ziduan p5{
+   font-size: 14px;
+
+}
+.ziduan p6{
+   font-size: 14px;
+
+}
+.ziduan p7{
+   font-size: 14px;
+   font-weight: bold;
+}
+.ziduan p8{
+   font-size: 14px;
+   font-weight: normal;
+
+}
+.ziduan p9{
+   font-size: 14px;
+   font-weight: bold;
+
+}
+.ziduan p10{
+   font-size: 14px;
+   font-weight: normal;
+
+}
+.ziduan p11{
+   font-size: 14px;
+   font-weight: bold;
+
+}
+.ziduan p12{
+   font-size: 14px;
+   font-weight: normal;
+
+}
+.ziduan p13{
+   font-size: 14px;
+   font-weight: bold;
+
+}
+.ziduan p14{
+   font-size: 14px;
+   font-weight: normal;
+
+}
+.ziduan p15{
+   font-size: 14px;
+   font-weight: bold;
+
+}
+.ziduan p16{
+   font-size: 14px;
+   font-weight: normal;
+
+}
+.youce a{
+   color: black;
+}
+
